@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CS:GO||rating</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Itim&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Itim&family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--HEADER-->
+
+	<div class="nav" id = "nav">
+		<div class="logo" href="#">
+			<img width="90px" height="40px" src="images/logo.png">
+		</div>
+	
+		<a type="button" onclick="home()">Home</a>
+		<a type="button" onclick="About()">About</a>
+		<a type = "button" class="nav__link" onclick="Top()">Top</a>
+		<a type="button" id="nick" onclick="login()">LogIn</a>
+		<a href="#" class="icon nav__link" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+
+	</div>
+			
+	<div class="login">
+		<form class="loginform">
+			<input class="email input" required type="email" placeholder="name@mail.com"/>
+			<input class="password input" required type="password" placeholder="password"/>
+			<button class="button input" type="button" onclick="signIn()">Log In</button>
+		</form>
+	</div>
+	
+<!--HEADER-->
+<!-- _______________________________________________ -->
+<!--INTRO-->
+	<div class="container">
+		<div class="intro__inner" style="background-image: url('images/background.jpg');">
+			<div class="text" id = "remember">Remember, this is a bandit country. Shoot everything that moves.</div>	
+		</div>
+	</div>
+
+<!--INTRO-->
+<!-- _______________________________________________ -->
+<!--MAIN-->
+	<!-- <script>function greeting(){document.write("hi");}</script> -->
+
+	<div class="main">
+		<div class="container">
+			<div class="main__inner">
+				<div class="main__first">
+					<img class="img__main" src="images/map.jpg">
+				</div>
+				<div class="main__first">
+					<h1 class="h1__main">The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives. The Terrorists, depending on the game mode, must either plant the bomb or defend the hostages, while the Counter-Terrorists must either prevent the bomb from being planted, defuse the bomb, or rescue the hostages. There are nine game modes, all of which have distinct characteristics specific to that mode. The game also has matchmaking support that allows players to play on dedicated Valve servers, as well as allowing members of the community to host their own servers with custom maps and game modes. A battle-royale game-mode, "Danger Zone", was introduced in 2018.</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--MAIN-->
+<!-- _______________________________________________ -->
+<!--RATING-->
+	<div class="rating">
+		<div class="container">
+			<h1 class="top">TOP PLAYERS</h1>
+			<div class="rating__inner">
+				<div class="rating__body" id="rating__s1mple">
+					<img src="images/simple.png">
+					<h1 class="h1__rating " id="s1mple">S1mple</h1>
+					<h2 class="h2__rating">Born in October 2, 1997</h2>
+				</div>
+				<div class="rating__body">
+					<img src="images/kennys.png">
+					<h1 class="h1__rating" id="kennys">Kennys</h1>
+					<h2 class="h2__ratin">Born in May 19, 1995</h2>
+				</div>
+				<div class="rating__body">
+					<img src="images/Twistzz.png">
+					<h1 class="h1__rating" id="shox">Twistzz</h1>
+					<h2 class="h2__rati">Born in November 14, 1999</h2>
+				</div>
+			</div>	
+		</div>
+	</div>
+<!--RATING-->
+<!-- _______________________________________________ -->
+
+<!--FOOTER-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__first">
+					<h2>Write Us</h2>
+					<form class="form" name = "form">
+						<input class="input w" type="text"  required placeholder="Full Name" name="name"><br>
+						<input class="input w" type="email" required placeholder="Email Address" name=""><br>
+						<input class="input w" type="tel" placeholder="Telephone" name=""><br>
+						<textarea class="textarea w" placeholder="COMMENT"></textarea><br>
+						<button class="button" type="button" onclick="ToSubmit()">Send</button>
+					</form>
+				</div>
+				<div class="callback">
+					<div>
+						<h3 class="h3__footer">+123 456 789</h3>
+						<h3 class="h3__footer">1234 Main Street Anywhere</h3>
+						<h3 class="h3__footer">sayhi@baamboostudio.com</h3>
+					</div>
+					<div class="icons">
+						<a href = "https://www.facebook.com/profile.php?id=100036012420933"><i class="fa fa-facebook"></i></a>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-rss"></i>
+						<i class="fa fa-instagram"></i>
+					</div>
+				</div>
+				<!-- <div class="footer__third">
+					
+				</div> -->
+			</div>
+		</div>
+	</div>
+<!--FOOTER-->
+<!-- _______________________________________________ -->
+
+
+
+
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
